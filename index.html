@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Super Bug</title>
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <style>
+        @import 'https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap';
+
+        * {
+            font-family: kanit, sans-serif
+        }
+
+        /* Carousel styling */
+        #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+            height: 100vh;
+        }
+
+        .carousel-item {
+            background-image: url('https://cdn.discordapp.com/attachments/993080096124575815/1075259327360811049/SCRATCH.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+        }
+
+        @media (min-width: 992px) {
+            #introCarousel {
+                margin-top: -58.59px;
+            }
+
+            #introCarousel,
+            .carousel-inner,
+            .carousel-item,
+            .carousel-item.active {
+                height: 50vh;
+            }
+        }
+
+        .navbar .nav-link {
+            color: #fff !important;
+        }
+
+        .text-main {
+            color: orange;
+        }
+
+        .btn-bug {
+            color: orange;
+            display: flex;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-link text-center" target="_blank" href="">
+                <strong style="color: orange;">
+                    <center>Super Bug</center>
+                </strong>
+            </a>
+        </div>
+    </nav>
+    <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+
+                        <div class="text-white text-center">
+                            <h1 class="mb-3" data-aos="fade-right" data-aos-delay="300">ยินดีต้อนรับเข้าสู่ <span
+                                    class="text-main">Super Bug</span> !</h1>
+                            <p data-aos="fade-left" data-aos-delay="500">วันนี้พวกเราจะมานำเสนอการสร้าง เกมด้วยโปรแกรม
+                                <a class="text-main" style="text-decoration: none;color: orange;"
+                                    href="https://scratch.mit.edu/"> Scratch</a></p>
+                            <a class="btn btn-outline-light btn-lg m-2" data-aos="fade-up" data-aos-delay="300" href=""
+                                role="button" rel="nofollow" target="_blank">รูปภาพท้้งหมด</a>
+                            <a class="btn btn-outline-light btn-lg m-2" href="pages/all.html" data-aos="fade-up"
+                                data-aos-delay="300" target="_blank" role="button">ดาวน์โหลด เกมส์</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="mt-5">
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-md-6 gx-5 mb-4" data-aos="fade-right" data-aos-delay="300">
+                        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
+                            data-mdb-ripple-color="light">
+                            <img src="https://i.pcmag.com/imagery/reviews/02WCHOURiTVXqgIxxoeAGAP-2.fit_scale.size_1028x578.v1569482197.jpg"
+                                class="img-fluid" />
+                            <a href="">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 gx-5 mb-4" data-aos="fade-right" data-aos-delay="100">
+                        <h4><strong><span class="text-main">Scratch</span> คืออะไร?</strong></h4>
+                        <p class="text-muted">
+                            Scratch ในที่นี้ คือ โปรแกรม ที่จำลองการทำเกมด้วย Codeblock ซึ่งมีความง่าย
+                            และเหมาะสำหรับ เด็กเพื่อเสริมสร้างจินตนาการ <span style="color: black;">ตัวอย่าง </span><a
+                                href="https://cdn.discordapp.com/attachments/993080096124575815/1075295757923516426/0356zWDYXZyGbmQxa.png"
+                                style="color: orange; text-decoration: none;">Codeblock สำเร็จรูป</a>
+                        </p>
+                        <p><strong>ประโยชน์ของ <span style="color: orange;">Scratch</span></strong></p>
+                        <p class="text-muted">
+                            ประโยชน์ของ โปรแกรม <span style="color: orange;">Scratch</span> หลักๆคือ
+                            โปรแกรมนี้เหมาะสำหรับใช้ในการสอนเด็กๆที่สนใจในการทำเกมเพราะในรูปแบบคำสั่งที่ใช้คือ Codeblock
+                            ซึ้ง Codeblock เป็นชุดคำสั่งที่ใช้ง่ายและเหมาะสมสำหรับเด็กๆที่จะเริ่มต้นในการ
+                            เขียนโค้ดหรือสร้างโปรแกรม.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+            <hr class="my-5" />
+
+
+            <section class="text-center">
+                <h4 class="mb-5"><strong>ตัวอย่าง<span style="color:orange">เกมส์</span></strong></h4>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4" data-aos="fade-right" data-aos-delay="300">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://media.discordapp.net/attachments/993080096124575815/1075293952372133908/image.png?width=1203&height=607"
+                                    class="img-fluid" />
+                                <a href="#">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Shooting Balloon</h5>
+                                <p class="card-text">
+                                </p>
+                                <a href="#!" class="btn btn-primary"
+                                    style="background-color: orange;box-shadow: none;">ตัวอย่าง</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4" data-aos="fade-right" data-aos-delay="300">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://media.discordapp.net/attachments/993080096124575815/1075583455653535794/image.png?width=1194&height=607"
+                                    class="img-fluid" />
+                                <a href="#">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Catway Surf</h5>
+                                <p class="card-text">
+                                </p>
+                                <a href="#!" class="btn btn-primary"
+                                    style="background-color: orange;box-shadow: none;">ตัวอย่าง</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4" data-aos="fade-right" data-aos-delay="300">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://media.discordapp.net/attachments/989540896427114546/1075589336147443793/image.png?width=1247&height=606"
+                                    class="img-fluid" />
+                                <a href="#">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Space A</h5>
+                                <p class="card-text">
+                                </p>
+                                <a href="#!" class="btn btn-primary"
+                                    style="background-color: orange;box-shadow: none;">ตัวอย่าง</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-5" />
+        </div>
+    </main>
+    <footer class="bg-light text-lg-start">
+        <div class="py-4 text-center">
+            <a role="button" class="btn btn-primary btn-lg m-2" style="background-color: orange;box-shadow: none;"
+                href="" target="_blank">
+                ดาวน์โหลด Source Code เว็ปไซต์นี้!
+            </a>
+        </div>
+
+        <hr class="m-0" />
+        <div class="text-center p-3" style="background-color: rgb(255, 145, 0);color: #fff;">
+            © 2020 Copyright by
+            <a style="color: #ffffff;" href="">Super Bug</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
